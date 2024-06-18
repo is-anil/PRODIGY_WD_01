@@ -1,0 +1,56 @@
+/* Reset styles and font-family */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Header styles */
+header {
+    position: fixed;
+    top: 20;
+    left: 20;
+    width: 100%;
+    padding: 50px 120px;
+    background: #11141a;
+    display: flex;
+    justify-content: space-between; /* Aligns items to the start and end of the header */
+    align-items: center; /* Centers items vertically within the header */
+}
+
+/* Logo styles */
+.logo {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.5rem;
+}
+
+/* Navigation styles */
+nav {
+    margin-right: 120px; /* Moves the nav items to the left */
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin-right: 20px;
+    transition: color 0.3s ease;
+}
+
+nav a:hover {
+    color: #55acee; /* Change to your preferred hover color */
+}
+
+/* Example section styles */
+section {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #f0f0f0;
+    scroll-margin-top: 80px; /* Adjust based on your header height */
+    font-size: 2re
+}
+header {
+    color: aqua;
+}
